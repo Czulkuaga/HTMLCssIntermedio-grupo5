@@ -1,0 +1,78 @@
+html {
+    background-color: #e5e5e5;
+}
+
+.container{
+    margin-top: 50px;
+    width: 100%;
+    border-top: 70px solid rgb(123, 11, 228);
+}
+
+.row{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.col-33{
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px 10px 0 0;
+    background-image: url('https://estaticos.muyinteresante.es/uploads/images/article/570b65e55bafe88a438b456a/perro_0.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+
+.col-33-2{
+    background-image: url('https://www.lawandtrends.com/files/post/imagencabecera/131235/680x452_multa-compraventa-mascotas-internet.jpg');
+}
+
+.col-33-3{
+    background-image: url('https://www.grimaldi-lines.com/wp-content/uploads/2021/01/Foto1.jpg');
+}
+
+.sub1{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.sub1 h2{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 2rem;
+    color: rgb(151, 58, 151);;
+}
+
+.sub2{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sub2 a{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.sub2 a button{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    background-color: rgb(202, 58, 202);
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+.sub2 a button:hover{
+    background-color: rgb(212, 97, 212);
+    cursor: pointer;
+}
